@@ -1,4 +1,4 @@
-export class Tweet {
+export default class Tweet {
   username: string;
   tweet: string;
 

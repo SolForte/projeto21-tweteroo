@@ -1,6 +1,6 @@
 import { IsString, IsNotEmpty, IsUrl } from 'class-validator';
 
-export class SignupDTO {
+export default class UserDTO {
   @IsNotEmpty({ message: 'All fields are required!' })
   @IsString()
   username: string;
